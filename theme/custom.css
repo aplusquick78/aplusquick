@@ -1,0 +1,54 @@
+/** topmarginLay_a **/
+.topmarginLay_a { display: none; }
+
+/** topmarginLay_a END **/
+
+/************모바일일경우 슬라이드 폰트사이즈 줄임*************/
+@media screen and (max-width:768px) {
+
+.flex-caption>.intro-text{font-size:0.8em;}
+.flex-caption>.intro-title{display:none;}
+  }
+
+
+/************모바일일경우 슬라이드 폰트사이즈 줄임 END*************/
+/**레이아웃6 상단네비 마진 제거**/
+.navbar {
+    margin-bottom: 0px;
+}
+
+/**레이아웃6 상단네비 마진 제거END**/
+
+
+/** 구글 번역기 일반 메뉴 **/
+
+.google_translate_div {
+    z-index: 100;
+    border: none;
+    min-height:0;
+    height: auto;
+    border-radius: 0px;
+    right: 0px;
+    left: 0px;
+}
+.google_translate_div > .container {
+    height: auto;
+    min-height: 36px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.cancle_trans {
+    height: 15px;
+    width: 15px;
+    margin:5.5px;
+    border:none;
+    background-image:url('https://translate.googleapis.com/translate_static/img/te_ctrl3.gif');
+    background-position:-28px 0px;
+}
+/** 구글 번역기 일반 메뉴 END **/
+
+.navbar-brand {
+    display: block;
+    height: auto;
+}

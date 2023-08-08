@@ -1,0 +1,230 @@
+/*상단 메뉴 설정 시작*/
+.navbar-inverse{
+	background:#222222;     /*배경 색*/
+	border-color:#080808;         /*테두리 색*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:0px 0px 0px 0px;       /*외부 여백*/
+}
+/*상단 메뉴 설정 끝*/
+
+/*상단 메뉴 로고 시작*/
+.navbar-brand img {
+	padding-top: 10px;
+}
+/*상단 메뉴 로고 끝*/
+
+/* 상단 메인 메뉴 설정 시작*/
+.navbar-inverse .navbar-nav > li > a{
+	     /*배경 색*/
+	color:#999999;                /*텍스트 색*/
+	font-size:14px;               /*텍스트 크기*/
+	padding:15px 15px 15px 15px;  /*내부 여백*/
+	margin:0px 0px 0px 0px;       /*외부 여백*/
+}
+/* 상단 메인 메뉴 설정 끝*/
+
+/* 상단 서브 메뉴 설정 시작*/
+.dropdown-menu > li > a{
+	background-color:#ffffff;     /*배경 색*/
+	color:#333333;                /*텍스트 색*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:3px 20px 3px 20px;       /*외부 여백*/
+	font-size:14px;
+}
+/* 상단 서브 메뉴 설정 끝*/
+
+/* 하단 카피라이트 설정 시작*/
+body > .navbar-fixed-bottom .text-center{
+	background:#ffffff;           /*배경 색*/
+	color:#999999;                /*텍스트 색*/
+	font-size:14px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:0px 0px 0px 0px;       /*외부 여백*/
+	text-align:center;            /*텍스트 정렬*/
+}
+.footer_copy .text-center{
+	background-color:#ffffff;     /*배경 색*/
+	color:#999999;                /*텍스트 색*/
+	font-size:14px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:0px 0px 0px 0px;       /*외부 여백*/
+	text-align:center;            /*텍스트 정렬*/
+}
+/* 하단 카피라이트 설정 끝*/
+
+/*인트로 텍스트 설정 시작*/
+h1.intro_span{
+	background-color:none;        /*배경 색*/
+	color:#ffffff;                /*텍스트 색*/
+	font-size:36px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:10px 10px 10px 10px;   /*외부 여백*/
+}
+
+p.intro_span{
+	background-color:none;        /*배경 색*/
+	color:#ffffff;                /*텍스트 색*/
+	font-size:14px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:10px 10px 10px 10px;   /*외부 여백*/
+}
+
+.flex-caption span.intro-title{
+	background:none;        /*배경 색*/
+	color:#ffffff;                /*텍스트 색*/
+	font-size:36px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:10px 10px 10px 10px;   /*외부 여백*/
+}
+.flex-caption span.intro-text{
+	background:none;        /*배경 색*/
+	color:#ffffff;                /*텍스트 색*/
+	font-size:14px;               /*텍스트 크기*/
+	padding:0px 0px 0px 0px;      /*내부 여백*/
+	margin:10px 10px 10px 10px;   /*외부 여백*/
+}
+/*인트로 텍스트 설정 끝*/
+
+
+/*커스텀*/
+.navbar-inverse {
+    background:rgba(0,0,0,0) !important; 
+    background: url('/skin/img/nav-bg.jpg') !important;
+    border-color: #FFF;
+}
+.navbar-inverse .divider-vertical {
+display:none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #252525;
+    font-size: 14px;
+    padding: 15px;
+    margin: 0px;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #252525;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0);
+}
+.navbar-inverse {
+    border-color: #118cf4;
+    border-bottom: 1px dashed #118CF4;
+}
+
+.navbar-toggle {
+    background: #118CF4;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #118CF4;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #118CF4;
+}
+
+.intro-widgetbox>.page-header{display:none;}
+.intro-widgetbox {border-bottom: 0px solid #EEE;}
+.flexslider {
+    border: 0px solid #eeeeee;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+}
+
+.flex-caption span.intro-title {
+    background: #118CF4;
+    padding: 3px 18px;
+    font-weight: bold;
+    font-family: impact !important;
+}
+ul.navbar-right>li:first-child a{font-weight:bold;color:#118CF4}
+
+.etc7title{
+
+margin-bottom: 20px;
+background-color: #FFF;
+border: 1px solid transparent;
+border-radius: 0px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+border-color: #DDD;
+background: #118CF4;
+color: #fff;
+font-weight: bold;
+
+}
+.etc7title>.panel-body>span{float:right;}
+.etc7title>.panel-body>span>a{color:#fff;}
+
+.etc7confirm{
+
+margin-bottom: 20px;
+background-color: #FFF;
+border: 1px solid transparent;
+border-radius: 0px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+border-color: #DDD;
+background: #fff;
+color: #118CF4;
+font-weight: bold;
+text-align:center;
+
+}
+.etc7confirm>.panel-body>b{font-size:18px;color:#000;}
+.etc7title>.panel-body{}
+
+.etc7pricetitle{}
+.etc7pricetitle .panel-body .panel{margin-bottom:10px;}
+.etc7service>.panel-body{padding:15px 15px 15px;}
+.etc7service .row .col-md-3{}
+.etc7service .row .col-md-3 h1:first-child{font-size:29px;}
+.etc7service .row .col-md-3>p{margin-bottom:15px;font-size:13px;}
+
+
+.footer_copy{overflow:hidden;}
+
+.footer_copy .text-center {
+    background-color: #efefef;
+    color: #000;
+    font-size: 14px;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    border-top: 7px solid #118CF4;
+}
+.delivery-info {
+    margin: 0px auto;
+    font-size: 11px;
+    max-width: 1140px;
+    padding: 10px;
+    background: #dfdfdf;
+   -moz-box-shadow:    inset 0 0 10px #cdcdcd;
+   -webkit-box-shadow: inset 0 0 10px #cdcdcd;
+   box-shadow:         inset 0 0 10px #cdcdcd;
+}
+.delivery-info p{}
+.footer_copy>.col-lg-12>p{font-size:13px;}
+.footer_copy>.col-lg-12>p.copy{color:#118CF4;font-size:12px;font-weight:bold;}
+
+.etc7company {
+    text-align: center;
+    background: url("/skin/img/company.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 10px;
+margin-left: -15px;
+margin-right: -15px;
+}
+.etc7company h2{color: rgb(255, 255, 255);font-weight: bold;}
+.etc7company h4{color: rgb(255, 255, 255);font-weight: bold;}
+.etc7company span{background: rgba(0,0,0,0.5);padding: 4px;}
+
+  .etc7company  p{color: #fff; font-weight: bold; background: rgba(0,0,0,0.5);}
+
+.intro-boardbox{padding:0px;}
+.intro-boardbox .page-header{display:none;}
+
+.intro-widgetbox { margin-top: 0px;}
+
+.container_contents .col-sm-12{}
+
+.intro-widgetbox .img-responsive{width:100%;}
