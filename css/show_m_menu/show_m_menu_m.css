@@ -1,0 +1,14 @@
+/**모바일 전용 메뉴**/
+@media all and (min-width:767px){
+    .mobile-btn-layout>div.col-lg-2{display:none;}
+}
+
+@media all and (max-width:767px){
+    .mobile-btn-layout>div.col-lg-2{margin:18px 0;padding:0;}
+}
+
+.mobile-btn-layout{margin:20px auto;max-width:1170px;}
+.mobile-btn-layout>div{margin:18px 0;height:80px;}
+.mobile-btn-layout>div>a>.btn{background: none !important; background-repeat:no-repeat !important; background-position:center !important; background-size:contain !important; box-shadow: none !important;border-radius: 0 !important;border: none !important;font-size:24px !important;width:57px !important;height:57px !important;}
+.mobile-btn-layout>div>a>span{display:inline-block;font-size:12px !important;margin-top:2px !important;text-align:center !important;font-weight: 900 !important;max-width: 60px !important;color:#000;word-break:break-all;white-space:pre-line;white-space: -moz-pre-wrap; /* Mozilla, since 1999 */ white-space: -pre-wrap; /* Opera 4-6 */ white-space: -o-pre-wrap; /* Opera 7 */ } 
+/**모바일 전용 메뉴 END**/
